@@ -1,0 +1,41 @@
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+.App
+{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  /*border:2px solid black;*/
+  padding:1rem;
+  overflow-y: auto;
+/* height:100%;*/
+}
+.App::-webkit-scrollbar {
+  width: 0rem;
+}
+ 
+.App::-webkit-scrollbar-track {
+    background-color:transparent;
+  
+}
+ 
+.App::-webkit-scrollbar-thumb {
+ 
+ border-radius:0px;
+ background-color:transparent;
+}
+@media(max-width:603px)
+{
+  .App{
+    width:100%;
+  }
+}
+@media(max-height:375px)
+{
+  .App 
+  {
+    height:100%;
+  }
+}
