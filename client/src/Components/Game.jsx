@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from "react";
 import io from "socket.io-client";
 import "../styles/Game.scss";
-const ENDPOINT='localhost:1000';
+const ENDPOINT='https://magicball-character-guess.herokuapp.com/';
 let socket;
 const Game = ()=>
 {
